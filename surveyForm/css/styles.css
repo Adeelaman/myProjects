@@ -1,0 +1,72 @@
+body {
+	background-image: url(../images/background1.gif);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #ffffff;	
+
+}
+#title {
+	text-align: center;
+}
+#description {
+	text-align: center;
+}
+#survey-form {
+	background-color: #106946;
+	opacity: 0.9;
+	width: 600px;
+	margin: 20px auto;
+	font-size: 1.4em;
+	line-height: 1.5;
+	text-align: left;
+	padding: 30px;
+}
+#name {
+	width: 98%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#email {
+	width: 98%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#number {
+	width: 98%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+label span {
+	font-size: 0.9em;
+}
+select {
+	width: 99%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#recomm {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#notSure {
+	margin-bottom: 20px;
+}
+#improvement-1 {
+	margin-top: 0;
+}
+#improvement-1 span {
+	font-size: 0.9em;
+}
+
+textarea {
+	border: 1px solid #000000;
+}
+#submit {
+	background-color: #f0ad29;
+	height: auto;
+	padding: 15px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
