@@ -1,0 +1,51 @@
+#main {
+	background-color: #90998e;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+}
+#title {
+	padding: 20px;
+	margin:20px auto 0px;
+}
+#img-div {
+	background-color: white;
+}
+#title-text {
+	margin-top: 0;
+}
+#image {
+	max-width:100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+#img-caption {
+	padding: 10px;
+}
+#life-head {
+	margin-top: 40px;
+}
+#trib-list {
+	text-align: left;
+	max-width: 550px;
+	margin: 10px auto 50px auto;
+}
+#trib-list span {
+	font-weight: bold;
+}
+#trib-list li {
+	padding: 15px;
+}
+#ind-quote {
+	max-width: 550px;
+	margin: 10px auto 0px auto;
+	font-style: italic;
+}
+#ind-quote p {
+	font-style: normal;
+}
+#link-wiki-p {
+	font-weight: bold;
+	margin-bottom: 50px;
+	display: inline-block;
+}
