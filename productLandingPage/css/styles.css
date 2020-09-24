@@ -1,0 +1,134 @@
+body {
+	/*background-color: #b8b6ba;*/
+	font-family: 'Epilogue', sans-serif;
+}
+#header {
+	padding: 5px;
+	margin-top: 15px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	margin-bottom: 60px;
+}
+#header-img {
+	width: 400px;
+	position: fixed;
+	left:0;
+}
+#nav-bar {
+	/*float: right;*/
+	position: fixed;
+	right: 0;
+}
+.nav-link {
+	text-decoration: none;
+	margin-right: 60px;
+	color: #000000;
+	font-size: 1.1em;
+}
+#title {
+	text-align: center;
+	font-size: 1.7em;
+	margin-top: 90px;
+	/*font-weight: normal;*/
+}
+/*#email-p {
+	width: 200px;
+	margin:auto;
+}*/
+#form {
+	text-align: center;
+}
+#email {
+	padding: 7px;
+	width: 250px;
+	/*margin: 10px auto 10px auto;*/
+}
+#submit {
+	width: 150px;
+	margin:15px auto 30px auto;
+	font-size: 1.2em;
+	background-color: darkorange;
+	font-weight: bold;
+	border:none;
+	height: 30px;
+}
+.main-div {
+	display: flex;
+	width: 90%;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+.first-div {
+	width: 10%;
+	margin-left: 250px;
+}
+.second-div {
+	width: 70%;
+	flex-direction: row;
+}
+.second-div h2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#video {
+	margin:auto;
+	display: block;
+}
+#third-div {
+	width: 80%;
+	margin:50px auto;
+	text-align: center;
+}
+.columns {
+	border: 1px solid black;
+	width: 30%;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+.columns span {
+	background-color: #ddd;
+	display: block;
+	height: 30px;
+	padding: 10px;
+	line-height: 35px;
+}
+.columns p:first-of-type {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.columns button {
+	margin-bottom: 20px;
+	background-color: darkorange;
+	border:none;
+	padding: 10px;
+	width: 80px;
+}
+#footer {
+	width: 73%;
+	background-color: #ddd;
+	margin:20px auto 40px;
+	height: 50px;
+	padding: 30px;
+}
+#footer ul {
+	display: flex;
+	margin-top: 0px;
+	list-style: none;
+	justify-content: flex-end;
+}
+#footer ul li {
+	margin-left: 10px;
+}
+#footer ul li a {
+	text-decoration: none;
+}
+#footer span {
+	float: right;
+}
+@media (max-width: 600px) {
+	#header-img {
+		width: 300px;
+	}
+}
