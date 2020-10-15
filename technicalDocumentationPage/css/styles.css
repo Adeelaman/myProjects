@@ -1,0 +1,58 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2;
+}
+
+#main-doc {
+	padding: 40px;
+    margin-left: 310px;
+    padding: 20px;
+}
+#navbar {
+	margin-top: 18px;
+	height: 100%;
+	overflow: scroll; 
+	position: fixed;
+	top:0;
+	left:0;
+	height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    padding: 20px;
+}
+#navbar header {
+	font-size: 28px;
+	font-weight: bold;
+}
+#navbar a {
+	text-decoration: none;
+}
+#navbar a:hover {
+	background-color:#c9c69b; 
+}
+.main-section header {
+	font-size: 28px;
+	font-weight: bold;
+}
+.main-section code {
+	background-color: #f7f7f7;
+	padding: 10px;
+	display: block;
+	height: 60px;
+
+}
+.code {
+	line-height: 60px;
+}
+#overflow-code {
+	height: 130px;
+}
+footer {
+	margin-bottom: 60px;
+}
+@media (max-width: 600px) {
+	#navbar header {
+	font-size: 28px;
+	font-weight: bold;
+	}
+}
