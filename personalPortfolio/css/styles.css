@@ -1,0 +1,136 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	line-height: 2;
+}
+
+#welcome-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+h1 {
+	color: #f0f0f0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3rem;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+#welcome-section p {
+	font-size: 2rem;
+	margin-top: 0;
+	color:#be3144;
+	font-style: italic;
+	font-weight:100;
+}
+#navbar {
+	background-color: #be3144;
+}
+.nav-link {
+	color: white;
+	font-weight: bold;
+}
+.nav-item:hover {
+	background-color: white;
+}
+#projects {
+	background-color: #45567d;
+	height: 1000px;
+}
+#projects h2 {
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size: 45px;
+	color: white;
+}
+#projects hr {
+	width: 60%;
+	background-color: white;
+}
+#projects a {
+	padding: 0;
+}
+.fit-image {
+  width: 100%;
+  height: 320px;
+}
+#projects figcaption {
+	background-color: var(--gray);
+	text-align: center;
+	color: var(--light);
+}
+figure {
+ display: table;
+ width: 100%; 
+}
+
+
+figcaption {
+ display: table-caption; 
+ caption-side: bottom ; 
+}
+.row {
+	padding: 30px;
+}
+#social-sec {
+	height: 400px;
+	background-color: #303841;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: var(--light);
+}
+#social-sec h2 {
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size: 55px;
+	margin-bottom: 0;
+}
+#social-sec p {
+	font-size: 1.3rem;
+	margin-top: 0;
+	color:#be3144;
+	font-style: italic;
+	font-weight:100;
+	font-weight: bold;
+}
+#contact-links {
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+}
+.fa {
+	color: var(--light);
+}
+#contact-links a {
+	color: var(--light);
+	margin:10px; 
+}
+footer {
+	background-color: #303841;
+	border-top: 5px solid #be3144;
+	height: 100px;
+}
+.footer-copyright {
+	color: var(--light);
+	line-height: 4;
+	font-weight: bold;
+}
+.footer-copyright span {
+	font-weight: normal;
+}
+@media (max-width: 992px) {
+	#projects {
+		height: 2100px;
+	}
+	.project-each {
+		width: 65%;
+		margin: 5px auto;
+	}
+}
