@@ -73,6 +73,9 @@ figcaption {
  display: table-caption; 
  caption-side: bottom ; 
 }
+h3 {
+	color: white;
+}
 .row {
 	padding: 30px;
 }
